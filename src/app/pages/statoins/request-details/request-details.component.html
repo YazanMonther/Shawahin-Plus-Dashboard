@@ -1,0 +1,20 @@
+<!-- request-details.component.html -->
+<div class="request-details">
+  <div class="header">
+    <h1>Request Details</h1>
+  </div>
+
+  <app-details-view [Data]="requestData"></app-details-view>
+
+  <div class="action-buttons">
+    <button class="accept-button" (click)="openConfirmationDialog('accept')">
+      Accept
+    </button>
+    <button class="deny-button" (click)="openConfirmationDialog('deny')">
+      Deny
+    </button>
+    <button class="remove-button" (click)="openConfirmationDialog('remove')">
+      Remove
+    </button>
+  </div>
+</div>

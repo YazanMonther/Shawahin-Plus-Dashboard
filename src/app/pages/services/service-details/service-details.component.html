@@ -1,0 +1,14 @@
+<!-- request-details.component.html -->
+<div class="service-details">
+  <div class="header">
+    <h1>Service Details</h1>
+  </div>
+
+  <app-service-details-view [Data]="Data"></app-service-details-view>
+
+  <div class="action-buttons">
+    <button class="remove-button" (click)="openConfirmationDialog('Delete')">
+      Delete
+    </button>
+  </div>
+</div>

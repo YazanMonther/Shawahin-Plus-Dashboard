@@ -1,0 +1,31 @@
+<div id="sidebar">
+  <div class="logo-container">
+    <a href="../">
+      <img src="assets/logo.svg" alt="Company Logo" class="logo" />
+    </a>
+  </div>
+  <ul>
+    <li>
+      <a routerLink="dashboard" routerLinkActive="active" class="sidebar-link">
+        Dashboard <i class="fas fa-tachometer-alt"></i>
+      </a>
+      <a
+        routerLink="pages/stations"
+        routerLinkActive="active"
+        class="sidebar-link"
+      >
+        Stations <i class="fas fa-map-marker-alt"></i>
+      </a>
+      <a
+        routerLink="pages/services"
+        routerLinkActive="active"
+        class="sidebar-link"
+      >
+        Services <i class="fas fa-service-marker-alt"></i>
+      </a>
+      <a (click)="LogOut()" class="sidebar-link">
+        Log Out <i class="fas fa-sign-out-alt"></i>
+      </a>
+    </li>
+  </ul>
+</div>

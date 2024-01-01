@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  max-width: 400px; /* Set a maximum width */
+  border-collapse: collapse;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 5px; /* Reduce padding */
+  text-align: left;
+  font-size: 12px; /* Reduce font size */
+  cursor: pointer;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ff833e; /* Change the color on hover */
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}

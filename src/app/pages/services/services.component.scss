@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.-link {
+  background-color: #333;
+  height: 75px;
+  width: 80px;
+  border-radius: 4px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: #ff833e; /* Change the color for the hover and active effects */
+}
+
+i {
+  margin-right: 5px;
+}
+
+.badge {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

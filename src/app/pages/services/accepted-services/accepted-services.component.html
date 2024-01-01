@@ -1,0 +1,15 @@
+<h2>Accepted Services</h2>
+<div class="mat-elevation-z8">
+  <app-table
+    [dataSource]="dataSource.data"
+    [displayedColumns]="displayedColumns"
+    [pageSizeOptions]="pageSizeOptions"
+    (rowClick)="onRowClick($event)"
+    [IdType]="IdType"
+  ></app-table>
+
+  <mat-paginator
+    [pageSizeOptions]="[5, 10, 25, 100]"
+    showFirstLastButtons
+  ></mat-paginator>
+</div>

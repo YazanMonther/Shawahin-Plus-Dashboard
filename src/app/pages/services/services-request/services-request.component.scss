@@ -1,0 +1,26 @@
+/* request-table.component.scss */
+
+h2 {
+  margin-top: 20px;
+}
+button {
+  padding: 3px 6px; /* Reduce button padding */
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 10px; /* Reduce button font size */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Adjust the style of paginator based on your design */
+.mat-paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

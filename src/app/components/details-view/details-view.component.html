@@ -1,0 +1,152 @@
+<div class="details-container" *ngIf="Data">
+  <div class="detail-item">
+    <div class="label">ID:</div>
+    <div class="value">{{ Data.requestId }} {{ Data.stationId }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Status:</div>
+    <div class="value">{{ Data.requestStatus }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Parking Type:</div>
+    <div class="value">{{ Data.parkingType }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Sunday Schedule:</div>
+    <div class="value">
+      {{ Data.sundayStartTime }} - {{ Data.sundayEndTime }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Monday Schedule:</div>
+    <div class="value">
+      {{ Data.mondayStartTime }} - {{ Data.mondayEndTime }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Tuesday Schedule:</div>
+    <div class="value">
+      {{ Data.tuesdayStartTime }} - {{ Data.tuesdayEndTime }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Wednesday Schedule:</div>
+    <div class="value">
+      {{ Data.wednesdayStartTime }} -
+      {{ Data.wednesdayEndTime }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Thursday Schedule:</div>
+    <div class="value">
+      {{ Data.thursdayStartTime }} - {{ Data.thursdayEndTime }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Friday Schedule:</div>
+    <div class="value">
+      {{ Data.fridayStartTime }} - {{ Data.fridayEndTime }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Saturday Schedule:</div>
+    <div class="value">
+      {{ Data.saturdayStartTime }} - {{ Data.saturdayEndTime }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Charger Cost:</div>
+    <div class="value">{{ Data.chargerCost }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">User ID:</div>
+    <div class="value">{{ Data.userId }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Charger Status:</div>
+    <div class="value">{{ Data.chargerStatus }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Location:</div>
+    <div class="value">
+      Latitude: {{ Data.latitude }}, Longitude:
+      {{ Data.longitude }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Address:</div>
+    <div class="value">
+      {{ Data.buildingNumber }}, {{ Data.streetName }}, {{ Data.town }},
+      {{ Data.city }}
+    </div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Country:</div>
+    <div class="value">{{ Data.country }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Charger Type:</div>
+    <div class="value">{{ Data.chargerType }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Power (kW):</div>
+    <div class="value">{{ Data.powerKw }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Electric Type:</div>
+    <div class="value">{{ Data.electricType }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Station Name:</div>
+    <div class="value">{{ Data.stationName }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Charger Image URL:</div>
+    <div class="value">{{ Data.chargerImageUrl }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Contact Name:</div>
+    <div class="value">{{ Data.contactName }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Email:</div>
+    <div class="value">{{ Data.email }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Phone:</div>
+    <div class="value">{{ Data.phone }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Payment Method:</div>
+    <div class="value">{{ Data.paymentMethod }}</div>
+  </div>
+
+  <div class="detail-item">
+    <div class="label">Payment Type:</div>
+    <div class="value">{{ Data.paymentType }}</div>
+  </div>
+</div>
