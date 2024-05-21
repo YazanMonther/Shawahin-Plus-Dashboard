@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/",
+    "/dashboard",
+    "/Login",
+    "/pages/services",
+    "/pages/services/Accepted-Services",
+    "/pages/services/Requests",
+    "/pages/stations",
+    "/pages/stations/Accepted-Stations",
+    "/pages/stations/Requests"
+  ]
+}
